@@ -247,7 +247,7 @@ def _(classification_report, y_pred_cbc_val, y_val):
 def _():
     # Кетбуст проиграл тупо по скорости - 20 минут обучения, против 1< минуты у LogisticRegression
 
-    print(f'Catboost, total: 20m 50s, accuracy: 81%')
+    print(f'Catboost, total: 20m 50s, accuracy: 95%')
     print(f'LogisticRegression, total: 1< min, accuracy: 97%')
     return
 
